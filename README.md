@@ -1,30 +1,37 @@
-# React + TypeScript + Vite
+# Proyecto de React con Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto base de React configurado con Vite, una herramienta de construcción rápida y flexible para aplicaciones web modernas.
 
-Currently, two official plugins are available:
+## Requisitos previos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Node.js y npm instalados en tu sistema. Puedes descargarlos e instalarlos desde [aquí](https://nodejs.org/).
 
-## Expanding the ESLint configuration
+## Pasos para levantar el proyecto
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. **Clonar el repositorio:**
 
-- Configure the top-level `parserOptions` property like this:
+    ```bash
+    git clone https://github.com/NahinMontoya/prueba-jelou.git
+    ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+2. **Instalar las dependencias:**
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+    ```bash
+    cd nombre-de-tu-proyecto
+    npm install
+    ```
+
+3. **Iniciar el servidor de desarrollo:**
+
+    ```bash
+    npm run dev
+    ```
+
+   Esto iniciará el servidor de desarrollo de Vite. Abre tu navegador y visita `http://localhost:3000` para ver la aplicación en funcionamiento. La página se recargará automáticamente cuando realices cambios en el código fuente.
+
+## Scripts disponibles
+
+En el directorio del proyecto, puedes ejecutar los siguientes comandos:
+
+- **`npm run dev`**: Inicia el servidor de desarrollo.
+- **`npm run build`**: Compila la aplicación para producción en la carpeta `dist`. El código se optimiza para un rendimiento óptimo.
