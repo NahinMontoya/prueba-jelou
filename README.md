@@ -1,7 +1,6 @@
-# Proyecto de React con Vite
+# Proyecto Biblioteca Virtual Jelou
 
-Este es un proyecto base de React configurado con Vite, una herramienta de construcción rápida y flexible para aplicaciones web modernas.
-
+Prueba tecnica Jelou FrontEnd Junior
 ## Requisitos previos
 
 - Node.js y npm instalados en tu sistema. Puedes descargarlos e instalarlos desde [aquí](https://nodejs.org/).
